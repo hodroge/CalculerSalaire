@@ -8,4 +8,5 @@ python:
 
 #nom de ton fichier
 script:
-  - python test2
+  - python test.py
+  - python CalculerSalaire.py
