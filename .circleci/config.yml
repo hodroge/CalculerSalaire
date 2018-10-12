@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    steps:
+      - checkout
+
+      - run:
+            python -m CalculerSalaire.py
+            python -m test.py
