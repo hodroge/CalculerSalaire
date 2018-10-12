@@ -7,5 +7,5 @@ jobs:
       - checkout
 
       - run:
-            python -m CalculerSalaire.py
-            python -m test.py
+            python CalculerSalaire.py
+            python test.py
